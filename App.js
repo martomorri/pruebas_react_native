@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput, SafeAreaView } from 'react-native';
-import AguanteBoca from './components/AguanteBoca';
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import Input from './components/Input';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View>
-        <AguanteBoca />
+        <Input />
       </View>
     </SafeAreaView>
   );
