@@ -32,6 +32,7 @@ const Input = () => {
 
 const styles = StyleSheet.create({
     container: {
+        margin: 10,
         marginVertical: 40,
     },
     input: {
